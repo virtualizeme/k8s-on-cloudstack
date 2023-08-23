@@ -7,4 +7,4 @@
 - chcac uruchomic swoj pierwszy klaster K8s musimy dokonac importu w Cloudstack webUI przygotowanego odpowiednio ISO obrazu wezla K8s. Przechodzimy do zakladki `Images` kllikamy w `Kubernetes ISO` w formularzu podajemy niezbedne dane, zwroc uwage zeby w `semantic version` nie wpisac byle jakiej nazwy tylko wersje iso ktora pobrales, `name` dowolne
 - w miejsce `url` kopiujesz link do wersji iso z tego linku `http://download.cloudstack.org/cks/`
 - podajesz ilosc CPU i RAM dla wezlow, po poprawnym pobraniu pliku zostanie przeprowadzone tworzenie `basic template` dla K8s
-### od tej chwilo mozesz tworzyc wlasne klastry K8s w Apache Cloudstack
+### od tej chwili mozesz tworzyc wlasne klastry K8s w Apache Cloudstack
