@@ -1,6 +1,7 @@
 # k8s-on-cloudstack
 ## skrypty pomocnicze dla k8s oraz instrukcja jak uruchomic modul k8s na cloudstack
 
+* [Skrypt generujacy token do zalogowania sie w webUI K8s](https://github.com/virtualizeme/k8s-on-cloudstack/blob/main/get-token-access-script.sh)
 - zeby uruchomic wbudowany modul w Apache Cloudstack w webUI panelu administratorskim w zakladce `Global Settings` w wyszukiwarce poszukujemy parametru `cloud.kubernetes.service.enabled` i ustawiamy go na `true`
 - nastepnie wykonujemy restart serwera Cloudstack Management Server, logujac sie do hosta na ktorym dziala usluga Cloudstack i wykonujac polecenie w CLI `sudo systemctl restart cloudstack-management-service` lub `service cloudstack-management restart`
 - po ponownym zalogowaniu do webUI cloudstacka w zakladce `Images` pojawi sie nowa opcja `Kubernetes ISO` oraz w zakladce `Compute` pojawi sie opcja `Kubernetes`
