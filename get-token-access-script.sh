@@ -1,5 +1,5 @@
 #!/bin/bash
-# Stworzyl sebastian test git
+
 # Pobierz bieżący katalog roboczy
 current_dir=$(pwd)
 
